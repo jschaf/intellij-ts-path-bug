@@ -1,0 +1,9 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "//*": ["./*"] // allow imports like: "import * as foo from '//src/foo';"
+    },
+  }
+}
