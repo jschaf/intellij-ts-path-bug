@@ -3,6 +3,8 @@
 This is a minimal reproduction of a bug in IntelliJ 2023.1 where IntelliJ
 doesn't recognize TypeScript tsconfig.paths and flags unused imports incorrectly.
 
+See [IDEA-317661](https://youtrack.jetbrains.com/issue/IDEA-317661/IntelliJ-2023.1-regression-does-not-use-tsconfig.json-paths-option-to-show-usage-information) for updates.
+
 IntelliJ incorrectly shows the function `someAlphaFunction` as unused. 
 The function is used by `bravo.ts`.
 
